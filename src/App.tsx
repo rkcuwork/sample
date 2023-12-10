@@ -5,6 +5,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const api_key = import.meta.env.VITE_API_KEY;
+  console.log("The api key ==> ",api_key);
 
   return (
     <>
